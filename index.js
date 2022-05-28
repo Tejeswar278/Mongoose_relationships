@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 const connect = () => {
   return mongoose.connect(
-    "mongodb+srv://muralimv:murali1234@cluster0.tzkmd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://epj:epj23@Azfqw@cluster0.uklfn.mongodb.net/?retryWrites=true&w=majority"
   );
 };
 //section schema
